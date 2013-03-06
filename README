@@ -1,0 +1,11 @@
+Run the run.sh in src/:
+sh run.sh [matrix_size | -p]
+
+matrix_size is optional, without specification, the size of the matrix is 100 * 100
+-p: if indicate -p then print output, other wise not print
+
+Example:
+sh run.sh
+sh run.sh 1000 -p
+sh run.sh -p
+sh run.sh -p 500
